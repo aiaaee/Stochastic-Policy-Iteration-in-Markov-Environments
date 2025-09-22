@@ -72,6 +72,7 @@ success_rate = careful_policy_search.success_rate(optimal_pi)
 
 2. Careful Policy: ~73.92%
 
+<img width="695" height="451" alt="image" src="https://github.com/user-attachments/assets/d2f71fcb-acf7-47bd-9735-b416b2982e45" />
 
 
 ### 6. How to Run
