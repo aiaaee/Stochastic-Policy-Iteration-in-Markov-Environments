@@ -21,3 +21,7 @@ The implementation is encapsulated in the `Policy_Iteration` class, which provid
 ```python
 careful_policy_evaluation = careful_policy_search.policy_evaluation()
 careful_policy_search.heatmap_policy_evaluation(careful_policy_evaluation)
+```
+
+<img width="515" height="435" alt="image" src="https://github.com/user-attachments/assets/d14bf318-92c8-4efe-bb03-4f9d30dd1fe1" />
+
