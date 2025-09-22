@@ -7,3 +7,16 @@ This repository contains a Python implementation of **Policy Iteration** applied
 2. **Careful Policy**
 
 The main goal is to analyze how different policies perform in terms of reaching the goal state under a stochastic environment.
+---
+
+## Project Overview
+
+The implementation is encapsulated in the `Policy_Iteration` class, which provides the following functionalities:
+
+### 1. Policy Evaluation
+- Computes the **value function V** for a given policy using the Bellman expectation equation.
+- Can generate **heatmaps** to visualize the value function over the 4x4 FrozenLake grid.
+- Example usage:
+```python
+careful_policy_evaluation = careful_policy_search.policy_evaluation()
+careful_policy_search.heatmap_policy_evaluation(careful_policy_evaluation)
