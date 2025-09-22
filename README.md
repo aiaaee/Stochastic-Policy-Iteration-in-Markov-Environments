@@ -7,6 +7,7 @@ This repository contains a Python implementation of **Policy Iteration** applied
 2. **Careful Policy**
 
 The main goal is to analyze how different policies perform in terms of reaching the goal state under a stochastic environment.
+
 ---
 
 ## Project Overview
