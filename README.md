@@ -8,6 +8,9 @@ This repository contains a Python implementation of **Policy Iteration** applied
 
 The main goal is to analyze how different policies perform in terms of reaching the goal state under a stochastic environment.
 
+<img width="407" height="427" alt="image" src="https://github.com/user-attachments/assets/9dc8c694-f8aa-486b-a532-5babd55cfa1a" />
+
+
 ---
 
 ## Project Overview
@@ -68,3 +71,24 @@ success_rate = careful_policy_search.success_rate(optimal_pi)
 1. Go-Get Policy: 73.34%
 
 2. Careful Policy: ~73.92%
+
+
+
+### 6. How to Run
+
+1. Install dependencies:
+```python
+ pip install gym numpy seaborn matplotlib
+```
+2.Load the FrozenLake-v1 environment and initialize the class:
+```python
+env = gym.make('FrozenLake-v1', is_slippery=True)
+P = env.env.env.env.P
+```
+3. Run policy evaluation, improvement, or full policy iteration as needed.
+
+
+#### Notes
+- The stochastic nature of FrozenLake can cause slight variations in success rates between runs. Increasing the number of episodes in success_rate() reduces variance.
+
+- Heatmaps and policy grids provide intuitive visualizations for policy analysis.
