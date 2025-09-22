@@ -34,3 +34,21 @@ careful_policy_search.heatmap_policy_evaluation(careful_policy_evaluation)
 careful_policy_improvement = careful_policy_search.policy_improvement(careful_policy_evaluation)
 careful_policy_search.plot_table_policy_improvement(careful_policy_improvement)
 ```
+
+<img width="407" height="427" alt="image" src="https://github.com/user-attachments/assets/0645436a-e640-487a-ab7d-d4d2fde38ce3" />
+
+### 3. Success Rate Evaluation
+
+- Evaluates a given policy by simulating episodes in FrozenLake.
+- Returns the success rate as the percentage of episodes that reach the goal.
+
+
+### 4. Policy Iteration
+
+- Automatically performs policy evaluation and policy improvement in a loop until convergence to the optimal policy.
+- Example usage:
+``` python
+optimal_V, optimal_pi = careful_policy_search.run()
+careful_policy_search.plot_table_policy_improvement(optimal_pi)
+success_rate = careful_policy_search.success_rate(optimal_pi)
+```
