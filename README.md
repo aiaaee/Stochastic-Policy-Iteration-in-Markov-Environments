@@ -52,3 +52,19 @@ optimal_V, optimal_pi = careful_policy_search.run()
 careful_policy_search.plot_table_policy_improvement(optimal_pi)
 success_rate = careful_policy_search.success_rate(optimal_pi)
 ```
+
+<img width="407" height="427" alt="image" src="https://github.com/user-attachments/assets/d3d63fd7-4143-4ff3-aebb-dba710f8d296" />
+
+### 5. Results
+
+- The project compares two policies:
+
+1. Go-Get Policy: Aggressive strategy aiming directly for the goal.
+
+2. Careful Policy: More conservative strategy avoiding holes.
+
+- Success rates observed (may vary due to stochasticity of FrozenLake):
+
+1. Go-Get Policy: 73.34%
+
+2. Careful Policy: ~73.92%
