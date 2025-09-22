@@ -25,3 +25,12 @@ careful_policy_search.heatmap_policy_evaluation(careful_policy_evaluation)
 
 <img width="515" height="435" alt="image" src="https://github.com/user-attachments/assets/d14bf318-92c8-4efe-bb03-4f9d30dd1fe1" />
 
+### 2. Policy Improvement
+
+- Uses the computed value function V to update the policy for each state.
+- Returns a new policy function that selects the optimal action based on Q-values derived from V.
+- Example usage:
+```python
+careful_policy_improvement = careful_policy_search.policy_improvement(careful_policy_evaluation)
+careful_policy_search.plot_table_policy_improvement(careful_policy_improvement)
+```
