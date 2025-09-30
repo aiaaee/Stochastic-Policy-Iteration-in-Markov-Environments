@@ -3,7 +3,7 @@ This project implements policy iteration in a stochastic environment using polic
 
 This repository contains a Python implementation of **Policy Iteration** applied to the `FrozenLake-v1` environment from OpenAI Gym. The project focuses on evaluating and improving two types of policies:
 
-1. **Go-Get Policy**  
+1. **Go-Get Policy**         
 2. **Careful Policy**
 
 The main goal is to analyze how different policies perform in terms of reaching the goal state under a stochastic environment.
